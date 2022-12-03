@@ -3,17 +3,20 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
-    <BaseOutputPath>F:\Richard\Project\测量管理系统\谛因斯前后端版本\demo-Lee\RMIMS.Client\RMIMS.Client\bin</BaseOutputPath>
+    <BaseOutputPath>E:\王力\工作项目\Lee框架\Lee.Admin\RMIMS.Client\RMIMS.Client\bin</BaseOutputPath>
     <SignAssembly>False</SignAssembly>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Assets\**" />
+    <EmbeddedResource Remove="Assets\**" />
+    <None Remove="Assets\**" />
+    <Page Remove="Assets\**" />
+  </ItemGroup>
   <ItemGroup>
     <None Remove="Images\desklogo.ico" />
     <None Remove="Images\LoginTitle.png" />
     <None Remove="Images\logo.png" />
     <None Remove="Images\Trade.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RMIMS.Client.Services\RMIMS.Client.Services\RMIMS.Client.Services.csproj" />

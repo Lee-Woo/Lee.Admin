@@ -1,0 +1,5 @@
+2022-12-03 16:31:22.4315|0|INFO|NLog|OnEntry Invocation:Castle.Proxies.Invocations.ILoginService_Login 
+2022-12-03 16:31:25.5818|0|INFO|NLog|OnExit Invocation:Castle.Proxies.Invocations.ILoginService_Login 
+2022-12-03 16:31:28.6955|0|INFO|NLog|OnEntry Invocation:Castle.Proxies.Invocations.ILoginService_Login 
+2022-12-03 16:31:31.7121|0|INFO|NLog|OnExit Invocation:Castle.Proxies.Invocations.ILoginService_Login 
+2022-12-03 16:34:19.8258|0|INFO|NLog|即将进入到测量主界面 

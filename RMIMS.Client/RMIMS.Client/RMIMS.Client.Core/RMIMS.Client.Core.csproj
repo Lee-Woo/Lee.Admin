@@ -2,8 +2,14 @@
   <PropertyGroup>
     <TargetFramework>net6.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
-    <BaseOutputPath>F:\Richard\Project\测量管理系统\谛因斯前后端版本\demo-Lee\RMIMS.Client\RMIMS.Client\bin</BaseOutputPath>
+    <BaseOutputPath>bin</BaseOutputPath>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Controls\**" />
+    <EmbeddedResource Remove="Controls\**" />
+    <None Remove="Controls\**" />
+    <Page Remove="Controls\**" />
+  </ItemGroup>
   <ItemGroup>
     <None Remove="Assets\iconfont.ttf" />
     <None Remove="Images\error.png" />
@@ -58,8 +64,5 @@
     <None Update="Config\NLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controls\" />
   </ItemGroup>
 </Project>

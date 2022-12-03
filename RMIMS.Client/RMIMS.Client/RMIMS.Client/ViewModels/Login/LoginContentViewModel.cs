@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿#define dev
+using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Services.Dialogs;
 using RMIMS.Client.Core.Utils;
@@ -135,6 +136,10 @@ namespace RMIMS.Client.ViewModels.Login
         }
         public async void ExecuteLoginCommand(PasswordBox passwordBox)
         {
+#if dev
+            ShellSwitcher.Switch<LoginWindow, MainWindow>();
+            return;
+#else
             if (string.IsNullOrEmpty(UserName))
             {
                 LoginResult = "用户名不能为空";
@@ -194,6 +199,7 @@ namespace RMIMS.Client.ViewModels.Login
                 IsLoginEnabled = true;
                 return;
             }
+#endif
         }
 
 
