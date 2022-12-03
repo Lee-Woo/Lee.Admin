@@ -1,0 +1,76 @@
+2022-11-28 15:16:13.1344 Info Message Template Auto Format enabled
+2022-11-28 15:16:13.3098 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign property 'ArchiveEvery'='Minute '. Error: Invalid enumeration value 'Minute '.
+ ---> NLog.NLogConfigurationException: Invalid enumeration value 'Minute '.
+   at NLog.Internal.PropertyHelper.TryGetEnumValue(Type resultType, String value, Object& result, Boolean flagsEnumAllowed)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, String propertyName, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString(Object targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2022-11-28 15:16:13.3913 Info Adding target AsyncTargetWrapper(Name=errorfile)
+2022-11-28 15:16:13.3913 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign property 'ArchiveEvery'='Minute '. Error: Invalid enumeration value 'Minute '.
+ ---> NLog.NLogConfigurationException: Invalid enumeration value 'Minute '.
+   at NLog.Internal.PropertyHelper.TryGetEnumValue(Type resultType, String value, Object& result, Boolean flagsEnumAllowed)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, String propertyName, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString(Object targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2022-11-28 15:16:13.3913 Info Adding target AsyncTargetWrapper(Name=warnfile)
+2022-11-28 15:16:13.3913 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign property 'ArchiveEvery'='Minute '. Error: Invalid enumeration value 'Minute '.
+ ---> NLog.NLogConfigurationException: Invalid enumeration value 'Minute '.
+   at NLog.Internal.PropertyHelper.TryGetEnumValue(Type resultType, String value, Object& result, Boolean flagsEnumAllowed)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, String propertyName, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString(Object targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2022-11-28 15:16:13.3913 Info Adding target AsyncTargetWrapper(Name=infofile)
+2022-11-28 15:16:13.3913 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign property 'ArchiveEvery'='Minute '. Error: Invalid enumeration value 'Minute '.
+ ---> NLog.NLogConfigurationException: Invalid enumeration value 'Minute '.
+   at NLog.Internal.PropertyHelper.TryGetEnumValue(Type resultType, String value, Object& result, Boolean flagsEnumAllowed)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, String propertyName, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString(Object targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2022-11-28 15:16:13.3913 Info Adding target AsyncTargetWrapper(Name=debugfile)
+2022-11-28 15:16:13.4282 Info Validating config: TargetNames=errorfile, warnfile, infofile, debugfile, ConfigItems=108, FilePath=F:\Richard\Project\测量管理系统\谛因斯前后端版本\demo\RMIMS.Client\RMIMS.Client\bin\Debug\net6.0-windows\Config\NLog.config
+2022-11-28 15:19:44.5207 Info Message Template Auto Format enabled
+2022-11-28 15:19:44.6922 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign property 'ArchiveEvery'='Minute '. Error: Invalid enumeration value 'Minute '.
+ ---> NLog.NLogConfigurationException: Invalid enumeration value 'Minute '.
+   at NLog.Internal.PropertyHelper.TryGetEnumValue(Type resultType, String value, Object& result, Boolean flagsEnumAllowed)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, String propertyName, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString(Object targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2022-11-28 15:19:45.3158 Info Adding target AsyncTargetWrapper(Name=errorfile)
+2022-11-28 15:19:45.3158 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign property 'ArchiveEvery'='Minute '. Error: Invalid enumeration value 'Minute '.
+ ---> NLog.NLogConfigurationException: Invalid enumeration value 'Minute '.
+   at NLog.Internal.PropertyHelper.TryGetEnumValue(Type resultType, String value, Object& result, Boolean flagsEnumAllowed)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, String propertyName, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString(Object targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2022-11-28 15:19:45.3158 Info Adding target AsyncTargetWrapper(Name=warnfile)
+2022-11-28 15:19:45.3158 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign property 'ArchiveEvery'='Minute '. Error: Invalid enumeration value 'Minute '.
+ ---> NLog.NLogConfigurationException: Invalid enumeration value 'Minute '.
+   at NLog.Internal.PropertyHelper.TryGetEnumValue(Type resultType, String value, Object& result, Boolean flagsEnumAllowed)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, String propertyName, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString(Object targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2022-11-28 15:19:45.3158 Info Adding target AsyncTargetWrapper(Name=infofile)
+2022-11-28 15:19:45.3158 Warn Error has been raised. Exception: NLog.NLogConfigurationException: 'FileTarget' cannot assign property 'ArchiveEvery'='Minute '. Error: Invalid enumeration value 'Minute '.
+ ---> NLog.NLogConfigurationException: Invalid enumeration value 'Minute '.
+   at NLog.Internal.PropertyHelper.TryGetEnumValue(Type resultType, String value, Object& result, Boolean flagsEnumAllowed)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, PropertyInfo propInfo, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object targetObject, String propertyName, String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyValueFromString(Object targetObject, String propertyName, String propertyValue, ValidatedConfigurationElement element)
+2022-11-28 15:19:45.3158 Info Adding target AsyncTargetWrapper(Name=debugfile)
+2022-11-28 15:19:45.3648 Info Validating config: TargetNames=errorfile, warnfile, infofile, debugfile, ConfigItems=108, FilePath=F:\Richard\Project\测量管理系统\谛因斯前后端版本\demo\RMIMS.Client\RMIMS.Client\bin\Debug\net6.0-windows\Config\NLog.config

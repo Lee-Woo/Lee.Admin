@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:po="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options" po:Freeze="True">
+
+    <FontFamily x:Key="mIconfont">pack://application:,,,/RMIMS.Client.Core;component/Assets/#iconfont</FontFamily>
+
+    <Color x:Key="RMFirstColor" po:Freeze="True">#272B32</Color>
+    <SolidColorBrush x:Key="RMFirstSolidColorBrush" Color="{StaticResource RMFirstColor}" po:Freeze="True"></SolidColorBrush>
+
+    <Color x:Key="RMSecondColor" po:Freeze="True">#253A44</Color>
+    <SolidColorBrush x:Key="RMSecondSolidColorBrush" Color="{StaticResource RMSecondColor}" po:Freeze="True"></SolidColorBrush>
+
+</ResourceDictionary>

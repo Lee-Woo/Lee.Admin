@@ -1,0 +1,15 @@
+﻿<Window x:Class="RMIMS.Client.ORM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RMIMS.Client.ORM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <Button x:Name="Btn1" Content="开始连接" Width="90" Height="35" Click="Btn1_Click" Margin="0,0,0,10"/>
+            <Button x:Name="Btn2" Content="生成" Width="90" Height="35" Click="Btn2_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

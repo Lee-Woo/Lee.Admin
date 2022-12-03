@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <BaseOutputPath>F:\Richard\Project\测量管理系统\谛因斯前后端版本\demo-Lee\RMIMS.Client\RMIMS.Client\bin</BaseOutputPath>
+    <SignAssembly>False</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Images\desklogo.ico" />
+    <None Remove="Images\LoginTitle.png" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\Trade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RMIMS.Client.Services\RMIMS.Client.Services\RMIMS.Client.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\desklogo.ico" />
+    <Resource Include="Images\LoginTitle.png" />
+    <Resource Include="Images\logo.png" />
+    <Resource Include="Images\Trade.jpg" />
+  </ItemGroup>
+</Project>

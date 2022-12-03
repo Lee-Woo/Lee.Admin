@@ -1,0 +1,1 @@
+2022-11-28 15:16:21.2293|0|ERROR|NLog|OnException Invocation:Castle.Proxies.Invocations.ILoginService_Login, Message: 测试全局异常 

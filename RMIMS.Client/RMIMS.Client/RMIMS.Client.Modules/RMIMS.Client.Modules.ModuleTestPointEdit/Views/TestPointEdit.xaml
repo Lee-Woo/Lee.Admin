@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="RMIMS.Client.Modules.ModuleTestPointEdit.Views.TestPointEdit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid Background="YellowGreen">
+        <TextBlock Text="{Binding Message}"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   FontSize="24"/>
+    </Grid>
+</UserControl>

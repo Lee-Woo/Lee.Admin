@@ -1,0 +1,11 @@
+/RMIMS.Client/.vs
+/RMIMS.Client/RMIMS.Client/RMIMS.Client/obj
+/RMIMS.Client/RMIMS.Client/RMIMS.Client.Core/obj
+/RMIMS.Client/RMIMS.Client/RMIMS.Client.Model/obj
+/RMIMS.Client/RMIMS.Client/RMIMS.Client.Modules/RMIMS.Client.Modules.ModuleTestPointEdit/obj
+/RMIMS.Client/RMIMS.Client/RMIMS.Client.Modules/RMIMS.Client.Modules.ModuleTestPointMove/obj
+/RMIMS.Client/RMIMS.Client/RMIMS.Client.Modules/RMIMS.Client.Modules.ModuleTestPointZero/obj
+/RMIMS.Client/RMIMS.Client/RMIMS.Client.Services/RMIMS.Client.Services/obj
+/RMIMS.Client/RMIMS.Client/RMIMS.Client.Services/RMIMS.Client.Services.Interfaces/obj
+/RMIMS.Client/RMIMS.Client/RMIMS.Client.Tests/RMIMS.Client.Modules.ModuleName.Tests/obj
+/RMIMS.Client/RMIMS.Client/RMIMS.Client.Tests/RMIMS.Client.ORM/obj

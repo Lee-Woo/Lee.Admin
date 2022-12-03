@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RMIMS.Client.Services.Interfaces\RMIMS.Client.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

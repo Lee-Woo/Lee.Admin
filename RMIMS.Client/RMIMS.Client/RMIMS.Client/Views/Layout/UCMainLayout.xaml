@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="RMIMS.Client.Views.Layout.UCMainLayout"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RMIMS.Client.Views.Layout"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:core="clr-namespace:RMIMS.Client.Core;assembly=RMIMS.Client.Core"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1000"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!--侧边栏-->
+        <Grid Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Width="Auto">
+            <local:MainLeftMenu Grid.Row="1"/>
+        </Grid>
+        <!--Navbar-->
+        <Grid Grid.Row="0" Grid.Column="1" Margin="1,0,0,0">
+            <local:MainNavbar/>
+        </Grid>
+        <!--主界面-->
+        <Grid Grid.Row="1" Grid.Column="1" Grid.RowSpan="2">
+            <local:MainTabControl/>
+        </Grid>
+        <!--footer-->
+        <Grid Grid.Row="2" Grid.Column="1">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="LabelAlarmMsg" Text="{Binding AlarmMessage}"/>
+            </StackPanel>
+        </Grid>
+        
+    </Grid>
+</UserControl>

@@ -1,0 +1,4 @@
+2022-11-28 15:16:21.0738|0|INFO|NLog|OnEntry Invocation:Castle.Proxies.Invocations.ILoginService_Login 
+2022-11-28 15:16:21.2318|0|INFO|NLog|OnExit Invocation:Castle.Proxies.Invocations.ILoginService_Login 
+2022-11-28 15:19:51.9039|0|INFO|NLog|OnEntry Invocation:Castle.Proxies.Invocations.ILoginService_Login 
+2022-11-28 15:19:54.3679|0|INFO|NLog|OnExit Invocation:Castle.Proxies.Invocations.ILoginService_Login 
