@@ -3,7 +3,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
-    <BaseOutputPath>E:\王力\工作项目\Lee框架\Lee.Admin\RMIMS.Client\RMIMS.Client\bin</BaseOutputPath>
+    <BaseOutputPath>$(SolutionDir)\RMIMS.Client\bin</BaseOutputPath>
     <SignAssembly>False</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
